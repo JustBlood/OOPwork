@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Classes">
+      <UniqueIdentifier>{f8643199-1d6c-4c71-bfb4-d888bc96b970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Headers">
+      <UniqueIdentifier>{a46d3d2a-49bf-44ea-b266-92ae0f49fdeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Functions">
+      <UniqueIdentifier>{f14b9bc9-c966-4c09-9cd4-b1249827a777}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OOP.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Исходные файлы\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="2_4.cpp">
+      <Filter>Исходные файлы\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="1_2.cpp">
+      <Filter>Исходные файлы\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="1_4.cpp">
+      <Filter>Исходные файлы\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="2_2.cpp">
+      <Filter>Исходные файлы\Functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Circle.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="1_2.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="1_4.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="2_2.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="2_4.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Aeroflot.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DaysOfWeek.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
