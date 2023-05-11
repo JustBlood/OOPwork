@@ -4,15 +4,15 @@
 #include "Aeroflot.h"
 #include "DaysOfWeek.h"
 
-void thirdTask();
+void thirdExercise();
 
 int main()
 {
-    thirdTask();
+    thirdExercise();
 	system("pause");
 }
 
-void thirdTask() {
+void thirdExercise() {
     std::cout << "=============== 3 ЗАДАНИЕ ================\n";
 
     std::vector<Aeroflot> flights = Aeroflot::createFlights();
