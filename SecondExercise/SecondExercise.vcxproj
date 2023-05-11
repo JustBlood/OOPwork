@@ -130,9 +130,9 @@
     <ClCompile Include="SecondExercise.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\OOP\2_2.h" />
-    <ClInclude Include="..\OOP\2_4.h" />
-    <ClInclude Include="..\OOP\Clock.h" />
+    <ClInclude Include="2_2.h" />
+    <ClInclude Include="2_4.h" />
+    <ClInclude Include="Clock.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

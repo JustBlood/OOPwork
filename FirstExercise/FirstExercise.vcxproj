@@ -130,10 +130,10 @@
     <ClCompile Include="FirstExercise.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\OOP\1_2.h" />
-    <ClInclude Include="..\OOP\1_4.h" />
-    <ClInclude Include="..\OOP\Circle.h" />
-    <ClInclude Include="..\OOP\Triangle.h" />
+    <ClInclude Include="1_2.h" />
+    <ClInclude Include="1_4.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -23,16 +23,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\OOP\1_2.h">
+    <ClInclude Include="1_2.h">
       <Filter>Исходные файлы\headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\OOP\1_4.h">
+    <ClInclude Include="1_4.h">
       <Filter>Исходные файлы\headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\OOP\Circle.h">
+    <ClInclude Include="Circle.h">
       <Filter>Исходные файлы\headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\OOP\Triangle.h">
+    <ClInclude Include="Triangle.h">
       <Filter>Исходные файлы\headers</Filter>
     </ClInclude>
   </ItemGroup>

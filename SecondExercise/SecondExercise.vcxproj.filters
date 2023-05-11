@@ -20,13 +20,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\OOP\2_2.h">
+    <ClInclude Include="2_2.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\OOP\2_4.h">
+    <ClInclude Include="2_4.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\OOP\Clock.h">
+    <ClInclude Include="Clock.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>
