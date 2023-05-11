@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e7d49b9f-4dfe-4b6c-a685-f15e247a7b3e}</ProjectGuid>
-    <RootNamespace>OOP</RootNamespace>
+    <ProjectGuid>{9fd77eed-81f1-4ab6-aeef-27e413e323b7}</ProjectGuid>
+    <RootNamespace>FirstExercise</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="OOP.cpp" />
+    <ClCompile Include="FirstExercise.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Aeroflot.h" />
-    <ClInclude Include="Clock.h" />
-    <ClInclude Include="DaysOfWeek.h" />
+    <ClInclude Include="..\OOP\1_2.h" />
+    <ClInclude Include="..\OOP\1_4.h" />
+    <ClInclude Include="..\OOP\Circle.h" />
+    <ClInclude Include="..\OOP\Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

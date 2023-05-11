@@ -1,6 +1,14 @@
-#pragma once
+#include <iostream>
+#include "Clock.h"
+#include <string>
+#include "2_2.h"
 
 void secondTaskSecondEx() {
+    // Задание 2
+    /*
+    Во входных данных записано 6 чисел: время на часах в формате часы, минуты секунды и реальное время в том же формате.
+    Определите, на сколько минут спешат/отстают часы от реального времени.
+    */
     int h1, m1, s1, h2, m2, s2;
     std::cout << "Введите время часов (часы, минуты, секунды): ";
     std::cin >> h1 >> m1 >> s1;
@@ -27,4 +35,4 @@ void secondTaskSecondEx() {
     }
     std::cout << "Часы " << hurryOrLagging << " на: ";
     differenceTime.printTime();
-};
+}

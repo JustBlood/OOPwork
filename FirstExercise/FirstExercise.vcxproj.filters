@@ -13,30 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Исходные файлы\Classes">
-      <UniqueIdentifier>{f8643199-1d6c-4c71-bfb4-d888bc96b970}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Headers">
-      <UniqueIdentifier>{a46d3d2a-49bf-44ea-b266-92ae0f49fdeb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\Functions">
-      <UniqueIdentifier>{f14b9bc9-c966-4c09-9cd4-b1249827a777}</UniqueIdentifier>
+    <Filter Include="Исходные файлы\headers">
+      <UniqueIdentifier>{211dbc50-fc23-479f-9c7b-76d547961663}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OOP.cpp">
+    <ClCompile Include="FirstExercise.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Clock.h">
-      <Filter>Исходные файлы\Headers</Filter>
+    <ClInclude Include="..\OOP\1_2.h">
+      <Filter>Исходные файлы\headers</Filter>
     </ClInclude>
-    <ClInclude Include="Aeroflot.h">
-      <Filter>Исходные файлы\Headers</Filter>
+    <ClInclude Include="..\OOP\1_4.h">
+      <Filter>Исходные файлы\headers</Filter>
     </ClInclude>
-    <ClInclude Include="DaysOfWeek.h">
-      <Filter>Исходные файлы\Headers</Filter>
+    <ClInclude Include="..\OOP\Circle.h">
+      <Filter>Исходные файлы\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OOP\Triangle.h">
+      <Filter>Исходные файлы\headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
