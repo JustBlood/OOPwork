@@ -3,6 +3,8 @@
 #include "Clock.h"
 #include "2_2.h"
 #include "2_4.h"
+#include "2_1.h"
+#include "2_3.h"
 
 void secondExercise();
 
@@ -28,9 +30,17 @@ void secondExercise() {
 
     std::cout << std::abs(c1.getDistance(c2)) << std::endl; // Выводит "5400" (разница в секундах между 11:30:00 и 12:00:00)
 
+    std::cout << "=============== 2 задание 1 упражнение ================\n";
+
+    secondTaskFirstEx();
+    
     std::cout << "=============== 2 задание 2 упражнение ================\n";
 
     secondTaskSecondEx();
+
+    std::cout << "=============== 2 задание 3 упражнение ================\n";
+
+    secondTaskThirdEx();
 
     std::cout << "=============== 2 задание 4 упражнение ================\n";
 

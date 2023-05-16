@@ -29,5 +29,17 @@
     <ClInclude Include="Clock.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="2_1.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="2_3.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock1.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock3.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
