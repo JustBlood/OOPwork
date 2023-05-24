@@ -134,9 +134,8 @@
     <ClInclude Include="2_2.h" />
     <ClInclude Include="2_3.h" />
     <ClInclude Include="2_4.h" />
+    <ClInclude Include="2_5.h" />
     <ClInclude Include="Clock.h" />
-    <ClInclude Include="Clock1.h" />
-    <ClInclude Include="Clock3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

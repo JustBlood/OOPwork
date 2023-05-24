@@ -5,6 +5,7 @@
 #include "2_4.h"
 #include "2_1.h"
 #include "2_3.h"
+#include "2_5.h"
 
 void secondExercise();
 
@@ -45,4 +46,8 @@ void secondExercise() {
     std::cout << "=============== 2 задание 4 упражнение ================\n";
 
     secondTaskFourthEx();
+
+    std::cout << "=============== 2 задание 5 упражнение ================\n";
+
+    secondTaskFifthEx();
 }

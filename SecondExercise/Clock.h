@@ -72,6 +72,7 @@ public:
 
     void increaseTime(int k) {
         int totalSeconds = getTimeInSeconds() + k;
+        totalSeconds %= 86400;
         hours = totalSeconds / 3600;
         minutes = (totalSeconds % 3600) / 60;
         seconds = totalSeconds % 60;
@@ -81,5 +82,16 @@ public:
         int thisTimeInSeconds = getTimeInSeconds();
         int otherTimeInSeconds = other.getTimeInSeconds();
         return thisTimeInSeconds - otherTimeInSeconds;
+    }
+
+    /// <summary>
+    /// Функция сравнения двух часов. Больше тот, кто ближе к 23:59:59
+    /// </summary>
+    /// <param name="other"></param>
+    /// <returns>
+    /// число < 0, если other > this. Число > 0, если this > other. 0, если this == other
+    /// </returns>
+    int compareTo(Clock other) {
+        return this->getTimeInSeconds() - other.getTimeInSeconds();
     }
 };

@@ -1,21 +1,19 @@
 #pragma once
 
-#include <iostream>
-#include "Clock1.h"
-
-using namespace std;
-
 void secondTaskFirstEx() {
-    int startHour, startMinute;
-    cin >> startHour >> startMinute;
-
-    Clock1 start(startHour, startMinute);
-    Clock1 endFirstHalf(startHour, startMinute + 45);
-    Clock1 startSecondHalf(startHour + 1, startMinute + 60);
-    Clock1 endSecondHalf(startHour + 1, startMinute + 105);
-
-    start.printTime();
-    endFirstHalf.printTime();
-    startSecondHalf.printTime();
-    endSecondHalf.printTime();
+    int h, m;
+    std::cout << "Введите время начала матча (часы, минуты): ";
+    std::cin >> h >> m;
+    Clock time(h, m);
+    std::cout << "Начало 1 тайма: \n";
+    time.printTime();
+    time.increaseTime(45 * 60);
+    std::cout << "Конец 1 тайма: \n";
+    time.printTime();
+    time.increaseTime(15 * 60);
+    std::cout << "Начало 2 тайма: \n";
+    time.printTime();
+    time.increaseTime(45 * 60);
+    std::cout << "Конец 2 тайма: \n";
+    time.printTime();
 }
