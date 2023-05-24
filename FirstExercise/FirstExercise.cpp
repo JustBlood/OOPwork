@@ -14,10 +14,11 @@ int main()
 
 void firstTask() {
     std::cout << "=============== 1 ЗАДАНИЕ ================\n";
-    std::cout << "=============== 1 задание 1 упражнение ================\n";
+    firstTaskFirstEx();
+    /*std::cout << "=============== 1 задание 1 упражнение ================\n";
     firstTaskFirstEx();
     std::cout << "=============== 1 задание 2 упражнение ================\n";
     firstTaskSecondEx();
     std::cout << "=============== 1 задание 4 упражнение ================\n";
-    firstTaskFourthEx();
+    firstTaskFourthEx();*/
 }
