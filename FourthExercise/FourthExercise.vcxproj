@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9fd77eed-81f1-4ab6-aeef-27e413e323b7}</ProjectGuid>
-    <RootNamespace>FirstExercise</RootNamespace>
+    <ProjectGuid>{6dad80e2-7e7d-46a3-8a9e-ef8b2d679b53}</ProjectGuid>
+    <RootNamespace>FourthExercise</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,14 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FirstExercise.cpp" />
+    <ClCompile Include="FourthExercise.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="1_1.h" />
-    <ClInclude Include="1_2.h" />
-    <ClInclude Include="1_4.h" />
-    <ClInclude Include="Circle.h" />
-    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="DynamicArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

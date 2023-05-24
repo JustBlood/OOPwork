@@ -13,30 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Исходные файлы\headers">
-      <UniqueIdentifier>{211dbc50-fc23-479f-9c7b-76d547961663}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FirstExercise.cpp">
+    <ClCompile Include="FourthExercise.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="1_2.h">
-      <Filter>Исходные файлы\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="1_4.h">
-      <Filter>Исходные файлы\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Circle.h">
-      <Filter>Исходные файлы\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="Triangle.h">
-      <Filter>Исходные файлы\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="1_1.h">
-      <Filter>Исходные файлы\headers</Filter>
+    <ClInclude Include="DynamicArray.h">
+      <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
